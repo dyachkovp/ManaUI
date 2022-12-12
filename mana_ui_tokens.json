@@ -862,7 +862,188 @@
       }
     }
   },
-  "Mana UI Kit": {},
+  "Mana UI Kit": {
+    "BrandFont": {
+      "value": "SF Pro Display",
+      "type": "fontFamilies"
+    },
+    "Large Title": {
+      "value": {
+        "fontFamily": "{BrandFont}",
+        "fontWeight": "Bold",
+        "lineHeight": "0",
+        "fontSize": "",
+        "letterSpacing": "2%",
+        "paragraphSpacing": "",
+        "paragraphIndent": "",
+        "textCase": "",
+        "textDecoration": ""
+      },
+      "type": "typography"
+    },
+    "Title 1": {
+      "value": {
+        "fontFamily": "{BrandFont}",
+        "fontWeight": "800",
+        "lineHeight": "auto",
+        "fontSize": "32",
+        "letterSpacing": "",
+        "paragraphSpacing": "",
+        "paragraphIndent": "",
+        "textCase": "",
+        "textDecoration": ""
+      },
+      "type": "typography"
+    },
+    "Title 2": {
+      "value": {
+        "fontFamily": "{BrandFont}",
+        "fontWeight": "",
+        "lineHeight": "",
+        "fontSize": "",
+        "letterSpacing": "",
+        "paragraphSpacing": "",
+        "paragraphIndent": "",
+        "textCase": "",
+        "textDecoration": ""
+      },
+      "type": "typography"
+    },
+    "Title 3": {
+      "value": {
+        "fontFamily": "{BrandFont}",
+        "fontWeight": "{fontWeights.sf-pro-display-1}",
+        "lineHeight": "{lineHeights.3}",
+        "fontSize": "{fontSize.6}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography"
+    },
+    "Headline": {
+      "value": {
+        "fontFamily": "{BrandFont}",
+        "fontWeight": "{fontWeights.sf-pro-display-3}",
+        "lineHeight": "{lineHeights.4}",
+        "fontSize": "{fontSize.5}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography"
+    },
+    "Body": {
+      "value": {
+        "fontFamily": "{BrandFont}",
+        "fontWeight": "{fontWeights.sf-pro-display-4}",
+        "lineHeight": "{lineHeights.4}",
+        "fontSize": "{fontSize.5}",
+        "letterSpacing": "{letterSpacing.1}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography"
+    },
+    "Callout": {
+      "value": {
+        "fontFamily": "{BrandFont}",
+        "fontWeight": "{fontWeights.sf-pro-display-4}",
+        "lineHeight": "{lineHeights.5}",
+        "fontSize": "{fontSize.4}",
+        "letterSpacing": "{letterSpacing.2}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography"
+    },
+    "Buttons": {
+      "Primary": {
+        "Text": {
+          "value": "{Foundation.Gray.01}",
+          "type": "color"
+        }
+      }
+    },
+    "Subhead": {
+      "value": {
+        "fontFamily": "{fontFamilies.sf-pro-display}",
+        "fontWeight": "{fontWeights.sf-pro-display-3}",
+        "lineHeight": "{lineHeights.5}",
+        "fontSize": "{fontSize.4}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography"
+    },
+    "Footnote": {
+      "value": {
+        "fontFamily": "{fontFamilies.sf-pro-display}",
+        "fontWeight": "{fontWeights.sf-pro-display-4}",
+        "lineHeight": "{lineHeights.6}",
+        "fontSize": "{fontSize.2}",
+        "letterSpacing": "{letterSpacing.3}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography"
+    },
+    "Caption 1": {
+      "value": {
+        "fontFamily": "{fontFamilies.sf-pro-display}",
+        "fontWeight": "{fontWeights.sf-pro-display-2}",
+        "lineHeight": "{lineHeights.7}",
+        "fontSize": "{fontSize.1}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography"
+    },
+    "Caption 2": {
+      "value": {
+        "fontFamily": "{fontFamilies.sf-pro-display}",
+        "fontWeight": "{fontWeights.sf-pro-display-2}",
+        "lineHeight": "{lineHeights.8}",
+        "fontSize": "{fontSize.0}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography"
+    },
+    "Button": {
+      "value": {
+        "fontFamily": "{fontFamilies.sf-pro-display}",
+        "fontWeight": "{fontWeights.sf-pro-display-5}",
+        "lineHeight": "{lineHeights.7}",
+        "fontSize": "{fontSize.3}",
+        "letterSpacing": "{letterSpacing.4}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.uppercase}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
