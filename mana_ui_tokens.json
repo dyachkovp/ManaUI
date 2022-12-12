@@ -37,7 +37,7 @@
         "value": {
           "fontFamily": "{Font.Body}",
           "fontSize": "{Desktop}",
-          "paragraphSpacing": "1.4"
+          "paragraphSpacing": "12"
         },
         "type": "typography"
       }
