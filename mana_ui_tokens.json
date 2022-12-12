@@ -1,0 +1,76 @@
+{
+  "Base Styles": {
+    "Color": {
+      "Base": {
+        "Green": {
+          "Green-600": {
+            "value": "#00ba60",
+            "type": "color"
+          },
+          "Green-700": {
+            "value": "#00914b",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "Font": {
+      "Base": {
+        "Body": {
+          "value": "Inter",
+          "type": "fontFamilies"
+        }
+      }
+    },
+    "Bold": {
+      "value": "600",
+      "type": "fontWeights"
+    },
+    "Web": {
+      "Headline 1": {
+        "value": {
+          "fontFamily": "{Font.Base.Body}",
+          "fontSize": "{Desktop}*3"
+        },
+        "type": "typography"
+      },
+      "Headline 2": {
+        "value": {
+          "fontFamily": "{Font.Base.Body}",
+          "fontSize": "{Desktop}*2.4"
+        },
+        "type": "typography"
+      },
+      "Headline 3": {
+        "value": {
+          "fontFamily": "{Font.Base.Body}"
+        },
+        "type": "typography"
+      }
+    },
+    "Desktop": {
+      "value": "16px",
+      "type": "fontSizes",
+      "description": "Base size for body paragraph for desktop 1220 to 1600 view"
+    }
+  },
+  "Components": {
+    "Plain": {
+      "Bg": {
+        "Primary": {
+          "Default": {
+            "value": "{Color.Base.Green.Green-600}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "Base Styles",
+      "Components"
+    ]
+  }
+}
