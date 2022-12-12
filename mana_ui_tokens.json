@@ -1,15 +1,12 @@
 {
   "Base Styles": {
     "Font": {
-      "Inter": {
-        "value": "Inter",
-        "type": "fontFamilies"
+      "Headlines": {
+        "value": "SF Display Pro",
+        "type": "fontFamilies",
+        "description": "Font for headlines"
       },
-      "Asket": {
-        "value": "Asket",
-        "type": "fontFamilies"
-      },
-      "SanFrancisco": {
+      "Body": {
         "value": "SF Pro Display",
         "type": "fontFamilies"
       }
@@ -17,21 +14,30 @@
     "Web": {
       "Headline 1": {
         "value": {
-          "fontFamily": "{Font.Inter}",
+          "fontFamily": "{Font.Headlines}",
           "fontSize": "{Desktop}*3"
         },
         "type": "typography"
       },
       "Headline 2": {
         "value": {
-          "fontFamily": "{Font.Inter}",
+          "fontFamily": "{Font.Headlines}",
           "fontSize": "{Desktop}*2.4"
         },
         "type": "typography"
       },
       "Headline 3": {
         "value": {
-          "fontFamily": "{Font.Inter}"
+          "fontFamily": "{Font.Headlines}",
+          "fontSize": "{Desktop}*1.25"
+        },
+        "type": "typography"
+      },
+      "Body": {
+        "value": {
+          "fontFamily": "{Font.Body}",
+          "fontSize": "{Desktop}",
+          "paragraphSpacing": "1.4"
         },
         "type": "typography"
       }
